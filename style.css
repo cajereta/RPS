@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+*{
+   background-color: #2B2A33;
+   font-family: Roboto, sans-serif;
+   margin: 0px;
+   padding: 0px;
+}
+h1{
+   background-color: #FBFBFE;
+   text-align: center;
+   padding: 15px;
+   color: #1B1B1B;
+   font-size: 40px;
+}
+.scoreboard{
+   text-align: center;
+   box-sizing: border-box;
+   border: solid #FBFBFE;
+   width: 350px;
+   padding: 10px 0 20px;
+   position: relative;
+   margin: 10px auto;
+   color: #FBFBFE;
+   font-size: 50px;
+   border-radius: 5px;
+      
+}
+.score{
+   display:inline-flex ;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 5px;
+   background-color: #FF97A0;
+   border-radius: 5px;
+   margin: 0px 25px 0 35px;
+   font-size: 20px;
+}
+p{
+   color: #FBFBFE;
+   font-size: 35px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+#reset{
+   color: #55555a;
+   font-size: 20px;
+   text-decoration: underline;
+   animation: ease;
+}
+#reset:hover{
+   color: #FF97A0;
+   transition: 00.4s;
+}
+#user-score{
+   position: absolute;
+   top: 73px;
+   left: 100px;
+}
+#computer-score{
+   position: absolute;
+   top: 73px;
+   right: 100px;
+}
+.choices{
+   text-align: center;
+}
+.choice{
+   display: inline-block;
+   padding: 30px;
+   margin: 5px;
+   border: solid #FBFBFE;
+   border-radius: 50%;
+   transition:  0.4s;
+   transition: ease;
+
+}
+.choice:hover{
+   border-width: 6px;
+   cursor: pointer;
+   border-color: #ececec;
+   background: #FF97A0;
+   transition:  0.4s;
+   box-shadow: 0 0 30px #000000;
+
+}
+.choice:hover > .img{
+   cursor: pointer;
+   border-color: #ececec;
+   background: #FF97A0;
+   transition:  0.4s;
+}
+img{
+   width: 130px;
+   height: 130px;
+}
+
+.action{
+   font-size: 25px;
+}
+
+.green{
+   border: rgb(37, 180, 37);
+}
+.red{
+   border: rgb(218, 31, 31);
+}
